@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                                           fit: BoxFit.cover,
                                         ),
                                       ),
-                                      alignment: Alignment.bottomLeft,
+                                      alignment: Alignment.bottomCenter,
                                       child: Container(
                                         width: double.infinity,
                                         height: 30,

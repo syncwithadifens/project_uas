@@ -5,6 +5,8 @@ import 'package:project_uas/services/http_service.dart';
 import 'package:project_uas/model/user_model.dart';
 
 class LoginPage extends StatefulWidget {
+  const LoginPage({Key key}) : super(key: key);
+
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
@@ -122,7 +124,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: TextButton(
                     onPressed: (() {
                       Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => RegisterPage()));
+                          builder: (context) => const RegisterPage()));
                     }),
                     child: const Text(
                       'Create New Account',
